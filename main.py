@@ -15,7 +15,9 @@
 # * https://docs.python.org/3/library/random.html
 # * http://www.stateworks.com/active/download/wagf92-software-engineering.pdf
 
-import objetos
+import rasp
+import fsm
+import 
 
 
 def main():
