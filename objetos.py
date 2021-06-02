@@ -1,7 +1,9 @@
+import csv
 import time
 from random import randint
+
 import RPi.GPIO as GPIO
-import csv
+
 
 # Administracion de los vfsm en raspberry pi 3
 class rasp_class:

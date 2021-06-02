@@ -15,7 +15,8 @@
 # * https://docs.python.org/3/library/random.html
 # * http://www.stateworks.com/active/download/wagf92-software-engineering.pdf
 
-import objetos.py
+import objetos
+
 
 def main():
     # Creacion de todos los objetos
