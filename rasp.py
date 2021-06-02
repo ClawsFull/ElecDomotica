@@ -1,5 +1,3 @@
-import csv
-import time
 from random import randint
 
 import RPi.GPIO as GPIO

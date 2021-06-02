@@ -1,3 +1,7 @@
+import csv
+import time
+
+
 # Maquina de estados, Administrador de estados
 class fsm_class:
     """Clase FSM """
