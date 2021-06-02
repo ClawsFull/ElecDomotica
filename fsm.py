@@ -1,7 +1,7 @@
 import csv
 import time
 
-
+# comentario de prueba para sincronizar desde la nube
 # Maquina de estados, Administrador de estados
 class fsm_class:
     """Clase FSM """
