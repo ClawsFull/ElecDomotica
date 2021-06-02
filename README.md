@@ -1,7 +1,7 @@
 # ElecDomotica
 Proyecto de Domótica
 El proyecto está orientado a controlar cortina y luces
-Se dispone de arduinos como tranformadore de señal Analogico/Digital
+Se dispone de arduinos como tranformadores de señal Analogico/Digital
 Una Raspberry Pi 3B para el control principal con conctividad a Wifi y Bluetooth
 Este codigo está basado en codigo de maquina de estados finitos:
 
