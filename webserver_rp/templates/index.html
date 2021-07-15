@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- nombre de la pagina -->
+    <title>Webserver R3.1415926535</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <mx class="auto mt5"></mx>
+                    <!-- Definir botones para la luz con sus funciones -->
+                    <h1 id="Luz0">Luz_0 : estado</h1>
+                    <input type="button" onclick="cambio_luz0()">
+                    <h1 id="Luz1">Luz_1 : estado</h1>
+                    <input type="button" onclick="cambio_luz1()">
+                    <!-- Definir botones para la luz con sus funciones -->
+            </div>
+        </div>
+    </div>
+
+    <!-- los scripts ejecutados por los botones o al recibir un mensaje por websocket-->
+    <script>
+        //conectarse al websocket
+        var socket = new WebSocket(window.location.href.replace('http','ws')+'ws/test/');
+
+        //Reflejar el estado recibido para en la pagina
+        socket.onmessage = function(event){
+            var data = JSON.parse(event.data);
+            console.log(data);
+            if (data.Luz_0) {
+            document.querySelector('#Luz0').innerText = 'Luz_0 : encendida'; 
+            }  else {
+            document.querySelector('#Luz0').innerText = 'Luz_0 : apagada'; 
+            }
+            if (data.Luz_1) {
+            document.querySelector('#Luz1').innerText = 'Luz_1 : encendida'; 
+            }  else {
+            document.querySelector('#Luz1').innerText = 'Luz_1 : apagada'; 
+            }
+        }
+        //Enviar mensaje cambio para la luz 0 al presionar el boton en la pagina
+        function cambio_luz0() {
+        socket.send(JSON.stringify({
+                'Luz_0': 'cambio'
+            }));
+        }
+        //Enviar mensaje cambio para la luz 1 al presionar el boton en la pagina
+        function cambio_luz1() {
+        socket.send(JSON.stringify({
+                'Luz_1': 'cambio'
+            }));
+        }
+    </script>
+</body>
+</html>

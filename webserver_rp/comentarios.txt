@@ -1,0 +1,26 @@
+El servidor y sus subcarpetas son creadas 
+por django de manera automatica
+con el comando django-admin startproject webserver_rp
+una vez que se tiene el proyecto creado se agrega una aplicacion mediante
+el comando python manage.py startapp integers
+se debe usar el comando python manage.py  migrate
+
+La carpeta templates fue creada y se le agrega
+ un template en index.html para mostrar una pagina web
+
+Los archivos modificados son:
+
+webserver_rp/asgi.py
+webserver_rp/settings.py
+webserver_rp/urls.py
+
+integers/urls.py
+integers/views.py
+integers/routing
+integers/consumers.py
+
+El principal es integers/consumers.py
+
+Todos estos archivos tienen sus modificaciones comentadas
+
+

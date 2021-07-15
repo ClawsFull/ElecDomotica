@@ -1,0 +1,1 @@
+python3 /home/pi/ElecDomotica/webserver_rp/manage.py runserver 0.0.0.0:8000

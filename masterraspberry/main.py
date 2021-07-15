@@ -15,9 +15,11 @@
 # * https://docs.python.org/3/library/random.html
 # * http://www.stateworks.com/active/download/wagf92-software-engineering.pdf
 
-from rasp import *
-from fsm import *
-from state import *
+import rasp  
+import fsm 
+import state
+import serialComunication 
+import Cliente 
 
 def main():
     # Creacion de todos los objetos
@@ -89,6 +91,7 @@ def main():
     st21 = state_class([{'sa5': 1}],
                        [10], [0.01, 7, 1], 21, 'ST21',
                        False)
+
     fsm0 = fsm_class({'sb1': [16, 18], 'sa2': 7, 'sa3': 11,
                       'sa4': 13, 'sa5': 22},
                      [st0, st1, st2, st3, st4, st5,
@@ -134,12 +137,6 @@ def main():
                                      'v3': 29, 'v4': 15, 'v5': 19},
                                     [fsm0])
     # Bucle Principal
-
-    while True:
-        administrador_vfsm.read_all_input()
-        administrador_vfsm.administrator_m()
-        administrador_vfsm.write_all_output()
-
 
 if __name__ == '__main__':
     main()
