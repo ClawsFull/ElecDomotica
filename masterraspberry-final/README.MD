@@ -1,20 +1,30 @@
-#Contenido de la carpeta:
+# Contenido de la carpeta:
 
-#Archivos principales:
-- controlador.py  --------------------------------  Código final para la administración de las funciones en paralelo de como lo son botones, reles y comunicación serial 
-- serialComunication.py		------------------------	Código que encapsula la API pyserial de modo que se cree un objeto capaz de administrar múltiples canales de comunicación serial y adaptado para interpretar y almacenar la información de los sensores y motor.
-#Archivos para pruebas:
-- blink.py	--------------------------------------	Código alternativo para pruebas de funcionamiento de reles con botones
-- compruebas.py	----------------------------------	Código de ejemplo de Comunicación 
-- fsm.py	  --------------------------------------	Código de estructura para Finite State Machine
-- state.py	--------------------------------------	Código de estructura para los estados de la máquina de estados finitos
-- FSM0.csv	--------------------------------------	Archivo con el registro de operación de los tiempos de operación y veces que se usó un estado dentro de la máquina de estados finitos, en este caso la maquina FSM0
-- FSM1.csv	--------------------------------------	Archivo de almacenamiento similar al anterior
-- opFSM0.csv	------------------------------------	Archivo de respaldo que registra las veces que se inició la máquina de estado, es decir, las inicializaciones de los objetos llamados FSM0, si no existe con anterioridad, este archivo se crea de forma automática.
-- opFSM1.csv	------------------------------------	Archivo de respaldo con el mismo funcionamiento que el anterior.
+## Archivos principales:
+- controlador.py  
+  > Código final para la administración de las funciones en paralelo de como lo son botones, reles y comunicación serial 
+- serialComunication.py	
+  > Código que encapsula la API pyserial de modo que se cree un objeto capaz de administrar múltiples canales de comunicación serial y adaptado para interpretar y almacenar la información de los sensores y motor.
+## Archivos para pruebas:
+- blink.py	
+  >	Código alternativo para pruebas de funcionamiento de reles con botones
+- compruebas.py	
+  >	Código de ejemplo de Comunicación 
+- fsm.py	  
+  > Código de estructura para Finite State Machine
+- state.py	
+  > Código de estructura para los estados de la máquina de estados finitos
+- FSM0.csv	
+  > Archivo con el registro de operación de los tiempos de operación y veces que se usó un estado dentro de la máquina de estados finitos, en este caso la maquina FSM0
+- FSM1.csv	
+  > Archivo de almacenamiento similar al anterior
+- opFSM0.csv	
+  > Archivo de respaldo que registra las veces que se inició la máquina de estado, es decir, las inicializaciones de los objetos llamados FSM0, si no existe con anterioridad, este archivo se crea de forma automática.
+- opFSM1.csv	
+  > Archivo de respaldo con el mismo funcionamiento que el anterior.
 
 
-#Descripción de la carpeta:
+## Descripción de la carpeta:
 La carpeta 'masterraspberry-final' corresponde al código de
 funcionamiento de Ampolletas con Motor y sensores conectados
 a Arduino sin requerir conexión a internet, esta parte del 
