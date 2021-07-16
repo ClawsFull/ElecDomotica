@@ -4,7 +4,6 @@
 * Version: 0.20210715
 * Created By: Camilo Santibañez, Alen Asenie
 * Created: 2021/06/02
-* Last Modified: 2021/07/15
 * Description:  
 El proyecto está orientado a controlar cortina y luces
 Se dispone de arduinos como tranformadores de señal Analogico/Digital
