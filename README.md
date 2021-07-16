@@ -20,7 +20,7 @@ Se sigue la siguiente estructura para el sistema:
     * 4 pines digitales para motor
     * Conexión USB o adaptador para comunicación serial 
 * Driver de 4 canales, 5V de entrada y activacion de almenos 3V para los mines de control
-* Raspberry Pi 3B+:
+* Raspberry Pi 3B:
     * 16GB de memoria SD como minimo
     * 1GB de ram o más
 * Conexión a internet Wifi o Ethernet
