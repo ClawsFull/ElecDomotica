@@ -16,7 +16,7 @@ Se sigue la siguiente estructura para el sistema:
 * Modulo Relé de al menos dos canales
 * Dos o más LDR GL5528 10Kohm
 * Arduino o equinalente:
-    * Minimo de 3 pines analogico (se recomiendan 3 más 2 para protocolo I2C de la pantalla) 
+    * Minimo de 3 pines analogico (se recomiendan 3 mas 2 para protocolo I2C de la pantalla) 
     * 4 pines digitales para motor
     * Conexión USB o adaptador para comunicación serial 
 * Driver de 4 canales, 5V de entrada y activacion de almenos 3V para los mines de control
