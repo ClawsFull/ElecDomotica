@@ -25,12 +25,12 @@ Una Raspberry Pi 3B para el control principal con conctividad a Wifi y Bluetooth
 * Fuente de alimentación para Raspberry de minimo 2A 
 * Pantalla Oled con comunicacion I2C (opcional)
 ## Referencias 
-* Django: https://docs.djangoproject.com/en/3.2/
-* Channels: https://channels.readthedocs.io/en/stable/
-* Websocket: https://websockets.readthedocs.io/en/stable/
-* Asyncio: https://docs.python.org/3/library/asyncio.html
-* Pyserial: https://pythonhosted.org/pyserial/
-* threading: https://docs.python.org/es/3/library/threading.html
-* Arduino: https://www.arduino.cc/reference/en/
-* Raspberry: https://sourceforge.net/p/raspberry-gpio-python/wiki/Home/
+1. Django: https://docs.djangoproject.com/en/3.2/
+2. Channels: https://channels.readthedocs.io/en/stable/
+3. Websocket: https://websockets.readthedocs.io/en/stable/
+4. Asyncio: https://docs.python.org/3/library/asyncio.html
+5. Pyserial: https://pythonhosted.org/pyserial/
+6. threading: https://docs.python.org/es/3/library/threading.html
+7. Arduino: https://www.arduino.cc/reference/en/
+8. Raspberry: https://sourceforge.net/p/raspberry-gpio-python/wiki/Home/
 
