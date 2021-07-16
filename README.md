@@ -6,7 +6,12 @@
 * Description:  
 El proyecto está orientado a controlar cortina y luces
 Se dispone de arduinos como tranformadores de señal Analogico/Digital
-Una Raspberry Pi 3B para el control principal con conctividad a Wifi y Bluetooth
+Una Raspberry Pi 3B para el control principal con conctividad a Wifi y Bluetooth. 
+Se sigue la siguiente estructura para el sistema:
+<br>
+<img src="https://github.com/ClawsFull/ElecDomotica/blob/main/Sistema%20Domotico.svg" />
+<br>
+
 ## Requerimientos
 * Modulo Relé de al menos dos canales
 * Dos o más LDR GL5528 10Kohm
