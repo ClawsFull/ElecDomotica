@@ -19,11 +19,13 @@ Se sigue la siguiente estructura para el sistema:
     * Mínimo de 3 pines analógicos (se recomiendan 3 mas 2 para protocolo I2C de la pantalla) 
     * 4 pines digitales para motor
     * Conexión USB o adaptador para comunicación serial a 38400 baudios o superior
-* Driver de 4 canales, 5V de entrada y activación de al menos 3V para los pines de control
 * Raspberry Pi 3B:
-    * 16GB de memoria SD como mínimo
+    * 16GB de memoria microSD como mínimo
     * 1GB de RAM o más
 * Conexión a internet Wifi o Ethernet
+* Botones
+* Driver de 4 canales, 5V de entrada y activación de al menos 3V para los pines de control
+* Motor stepper
 * Fuente de alimentación de 12 a 5V para el motor
 * Fuente de alimentación para Raspberry de mínimo 2A 
 * Pantalla Oled con comunicación I2C (opcional)
