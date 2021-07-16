@@ -23,6 +23,7 @@ Una Raspberry Pi 3B para el control principal con conctividad a Wifi y Bluetooth
 * Conexión a internet Wifi o Ethernet
 * Fuente de alimentación de 12 a 5V para el motor
 * Fuente de alimentación para Raspberry de minimo 2A 
+* Pantalla Oled con comunicacion I2C (opcional)
 ## Referencias 
 * Pyserial:
 * Django:
