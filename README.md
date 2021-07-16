@@ -2,7 +2,7 @@
 ## Resumen de proyecto
 * Title: "ElecDomotica"
 * Version: 0.20210715
-* Created By: Camilo Alfonso Santibanez Chacon, Alen Asenie Rosas
+* Created By: Camilo Santibañez, Alen Asenie
 * Created: 2021/06/02
 * Last Modified: 2021/07/15
 * Description:  
