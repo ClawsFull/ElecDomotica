@@ -1,4 +1,4 @@
-# Proyecto ElecDomotica 
+# :bulb: Proyecto ElecDomotica :bulb:
 ## Resumen de proyecto
 * Title: "ElecDomotica"
 * Version: 0.20210715
