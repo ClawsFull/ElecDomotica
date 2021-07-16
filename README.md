@@ -2,7 +2,6 @@
 ## Resumen de proyecto
 * Title: "ElecDomotica"
 * Version: 0.20210715
-* Created By: Camilo Santibañez, Alen Asenie
 * Created: 2021/06/02
 * Description:  
 El proyecto está orientado a controlar cortina y luces
