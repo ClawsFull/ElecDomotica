@@ -24,7 +24,7 @@ Se sigue la siguiente estructura para el sistema:
     * 1GB de RAM o más
 * Conexión a internet Wifi o Ethernet
 * Botones
-* Driver de 4 canales, 5V de entrada y activación de al menos 3V para los pines de control
+* Driver de 4 canales, 5V de alimentacion o más y activación de los pines de control de al menos 3V 
 * Motor stepper
 * Fuente de alimentación de 12 a 5V para el motor
 * Fuente de alimentación para Raspberry de mínimo 2A 
